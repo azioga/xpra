@@ -14,7 +14,7 @@
      cython_add(Extension("xpra.client.gtk3.cairo_workaround",
                  ["xpra/client/gtk3/cairo_workaround.pyx", buffers_c],
 -                **pkgconfig("pycairo")
-+                **pkgconfig("py3cairo")
++                **pkgconfig("pycairo")
                  ))
  
  add_packages("xpra.codecs.argb")
