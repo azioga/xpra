@@ -51,7 +51,7 @@ for remote X apps.
 %apply_patches
 
 %build
-python setup.py build --without-enc_x264 build_ext --libraries X11
+python setup.py build --without-enc_x264 build_ext --libraries X11 --libraries m
 
 %install
 python setup.py install -O1  --prefix /usr --skip-build --root %{buildroot}
