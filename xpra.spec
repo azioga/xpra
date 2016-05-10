@@ -10,8 +10,10 @@ Source0:	http://xpra.org/src/%{name}-%{version}.tar.xz
 BuildRequires:	python-setuptools
 BuildRequires:	python-cython
 BuildRequires:	pkgconfig(python3)
+BuildRequires:	pkgconfig(python)
 BuildRequires:	pkgconfig(py3cairo)
 BuildRequires:	pkgconfig(pycairo)
+BuildRequires:	pkgconfig(pygobject-2.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(libswscale)
 BuildRequires:	pkgconfig(xkbfile)
