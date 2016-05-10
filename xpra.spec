@@ -59,6 +59,7 @@ python setup.py install -O1  --prefix /usr --skip-build --root %{buildroot}
 
 %files
 %{_sysconfdir}/%{name}/xpra.conf
+%{_sysconfdir}/%{name}/xorg.conf
 %{_bindir}/xpra*
 %{_iconsdir}/%{name}.png
 %{_datadir}/applications/xpra_launcher.desktop
