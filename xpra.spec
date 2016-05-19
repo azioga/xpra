@@ -39,6 +39,7 @@ Suggests: python-lzo
 Suggests: python-opencv
 Suggests: python-rencode
 
+
 %description
 Xpra gives you "persistent remote applications" for X. That is, unlike normal
 X applications, applications run with xpra are "persistent" -- you can run
